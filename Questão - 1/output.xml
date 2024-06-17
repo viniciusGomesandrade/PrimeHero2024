@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-06-16T23:43:03.182384" rpa="false" schemaversion="5">
+<suite id="s1" name="Teste1" source="C:\Users\VINI\Desktop\robotcurso\Questão - 1\teste1.robot">
+<test id="s1-t1" name="Exibir Informações Do dicionario" line="8">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Nome: ${ROBOT_INFO['nome']}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:43:03.225911" elapsed="0.000997"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Idade: ${ROBOT_INFO['idade']}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:43:03.226908" elapsed="0.000989"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Rua: ${ROBOT_INFO['rua']}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:43:03.228873" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Número: ${ROBOT_INFO['numero']}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:43:03.229862" elapsed="0.001002"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>CEP: ${ROBOT_INFO['cep']}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:43:03.231861" elapsed="0.000996"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Bairro: ${ROBOT_INFO['bairro']}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:43:03.233851" elapsed="0.001000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Cidade: ${ROBOT_INFO['cidade']}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:43:03.234851" elapsed="0.000996"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Estado: ${ROBOT_INFO['estado']}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:43:03.235847" elapsed="0.000997"/>
+</kw>
+<status status="PASS" start="2024-06-16T23:43:03.224926" elapsed="0.012917"/>
+</test>
+<status status="PASS" start="2024-06-16T23:43:03.184379" elapsed="0.054461"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Teste1">Teste1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

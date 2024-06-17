@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-06-16T23:45:05.331115" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot.Teste5" source="C:\Users\VINI\Desktop\robotcurso\Questão - 5\robot.teste5.robot">
+<test id="s1-t1" name="Alterar Senha" line="9">
+<kw name="Setup Credenciais">
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2024-06-16T23:45:05.371586" level="INFO">${CREDS} = {'Usuário': 'exemplo_usuario', 'Senha': 'senha_inicial'}</msg>
+<var>${CREDS}</var>
+<arg>Usuário=${USUARIO}</arg>
+<arg>Senha=${SENHA}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2024-06-16T23:45:05.370548" elapsed="0.001038"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-06-16T23:45:05.371586" level="INFO">${CREDS} = {'Usuário': 'exemplo_usuario', 'Senha': 'senha_inicial'}</msg>
+<arg>${CREDS}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-06-16T23:45:05.371586" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-06-16T23:45:05.370548" elapsed="0.001038"/>
+</kw>
+<kw name="Alterar Senha No Dicionário">
+<kw name="Set To Dictionary" owner="Collections">
+<msg time="2024-06-16T23:45:05.372585" level="INFO">${CREDS} = {'Usuário': 'exemplo_usuario', 'Senha': 'senha_nova12356789'}</msg>
+<var>${CREDS}</var>
+<arg>${CREDS}</arg>
+<arg>Senha</arg>
+<arg>senha_nova12356789</arg>
+<doc>Adds the given ``key_value_pairs`` and/or ``items`` to the ``dictionary``.</doc>
+<status status="PASS" start="2024-06-16T23:45:05.372585" elapsed="0.000000"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-06-16T23:45:05.372585" level="INFO">${CREDS} = {'Usuário': 'exemplo_usuario', 'Senha': 'senha_nova12356789'}</msg>
+<arg>${CREDS}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-06-16T23:45:05.372585" elapsed="0.000000"/>
+</kw>
+<doc>Altera o valor da senha no dicionário</doc>
+<status status="PASS" start="2024-06-16T23:45:05.371586" elapsed="0.000999"/>
+</kw>
+<kw name="Exibir Dicionário">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-06-16T23:45:05.373541" level="INFO">{'Usuário': 'exemplo_usuario', 'Senha': 'senha_nova12356789'}</msg>
+<arg>${CREDS}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-06-16T23:45:05.373541" elapsed="0.000000"/>
+</kw>
+<doc>Exibe o dicionário com a senha alterada</doc>
+<status status="PASS" start="2024-06-16T23:45:05.373541" elapsed="0.000000"/>
+</kw>
+<kw name="Teardown Restaurar Senha">
+<kw name="Set To Dictionary" owner="Collections">
+<msg time="2024-06-16T23:45:05.374588" level="INFO">${CREDS} = {'Usuário': 'exemplo_usuario', 'Senha': 'senha_inicial'}</msg>
+<var>${CREDS}</var>
+<arg>${CREDS}</arg>
+<arg>Senha</arg>
+<arg>${SENHA}</arg>
+<doc>Adds the given ``key_value_pairs`` and/or ``items`` to the ``dictionary``.</doc>
+<status status="PASS" start="2024-06-16T23:45:05.373541" elapsed="0.001047"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-06-16T23:45:05.374588" level="INFO">Senha restaurada para o valor inicial: senha_inicial</msg>
+<arg>Senha restaurada para o valor inicial: ${CREDS}[Senha]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-06-16T23:45:05.374588" elapsed="0.000000"/>
+</kw>
+<doc>Restaura o valor da senha para o inicial</doc>
+<status status="PASS" start="2024-06-16T23:45:05.373541" elapsed="0.001047"/>
+</kw>
+<status status="PASS" start="2024-06-16T23:45:05.369552" elapsed="0.005036"/>
+</test>
+<status status="PASS" start="2024-06-16T23:45:05.333063" elapsed="0.043471"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot.Teste5">Robot.Teste5</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

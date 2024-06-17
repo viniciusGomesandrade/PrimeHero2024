@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-06-16T23:42:11.868066" rpa="false" schemaversion="5">
+<suite id="s1" name="Unico" source="C:\Users\VINI\Desktop\robotcurso\unico.robot">
+<test id="s1-t1" name="Executar Todos os Exercícios" line="9">
+<kw name="Teste Questão 1">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-06-16T23:42:11.914534" level="INFO">Teste para Questão 1</msg>
+<arg>Teste para Questão 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-06-16T23:42:11.914534" elapsed="0.000000"/>
+</kw>
+<doc>Testar a questão 1</doc>
+<status status="PASS" start="2024-06-16T23:42:11.914534" elapsed="0.000000"/>
+</kw>
+<kw name="Teste Questão 2">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-06-16T23:42:11.915591" level="INFO">Teste para Questão 2</msg>
+<arg>Teste para Questão 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-06-16T23:42:11.915591" elapsed="0.000000"/>
+</kw>
+<doc>Testar a questão 2</doc>
+<status status="PASS" start="2024-06-16T23:42:11.915591" elapsed="0.000000"/>
+</kw>
+<kw name="Teste Questão 3">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-06-16T23:42:11.916558" level="INFO">Teste para Questão 3</msg>
+<arg>Teste para Questão 3</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-06-16T23:42:11.916558" elapsed="0.000000"/>
+</kw>
+<doc>Testar a questão 3</doc>
+<status status="PASS" start="2024-06-16T23:42:11.916558" elapsed="0.000000"/>
+</kw>
+<kw name="Teste Questão 4">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-06-16T23:42:11.917554" level="INFO">Teste para Questão 4</msg>
+<arg>Teste para Questão 4</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-06-16T23:42:11.917554" elapsed="0.000000"/>
+</kw>
+<doc>Testar a questão 4</doc>
+<status status="PASS" start="2024-06-16T23:42:11.917554" elapsed="0.000000"/>
+</kw>
+<kw name="Teste Questão 5">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-06-16T23:42:11.918523" level="INFO">Teste para Questão 5</msg>
+<arg>Teste para Questão 5</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-06-16T23:42:11.918523" elapsed="0.000000"/>
+</kw>
+<doc>Testar a questão 5</doc>
+<status status="PASS" start="2024-06-16T23:42:11.917554" elapsed="0.000969"/>
+</kw>
+<doc>Executar todos os exercícios juntos</doc>
+<status status="PASS" start="2024-06-16T23:42:11.913537" elapsed="0.004986"/>
+</test>
+<status status="PASS" start="2024-06-16T23:42:11.870025" elapsed="0.050494"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Unico">Unico</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-06-16T23:42:11.900615" level="ERROR">Error in file 'C:\Users\VINI\Desktop\robotcurso\unico.robot' on line 2: Error in file 'C:\Users\VINI\Desktop\robotcurso\Questão - 1\teste1.robot' on line 7: Resource file with 'Test Cases' section is invalid.</msg>
+<msg time="2024-06-16T23:42:11.903599" level="ERROR">Error in file 'C:\Users\VINI\Desktop\robotcurso\unico.robot' on line 3: Error in file 'C:\Users\VINI\Desktop\robotcurso\Questão - 2\robot.teste2.robot' on line 10: Resource file with 'Test Cases' section is invalid.</msg>
+<msg time="2024-06-16T23:42:11.906591" level="ERROR">Error in file 'C:\Users\VINI\Desktop\robotcurso\unico.robot' on line 4: Error in file 'C:\Users\VINI\Desktop\robotcurso\Questão - 3\robot.teste3.robot' on line 9: Resource file with 'Test Cases' section is invalid.</msg>
+<msg time="2024-06-16T23:42:11.908551" level="ERROR">Error in file 'C:\Users\VINI\Desktop\robotcurso\unico.robot' on line 5: Error in file 'C:\Users\VINI\Desktop\robotcurso\Questão - 4\robot.teste4.robot' on line 5: Resource file with 'Test Cases' section is invalid.</msg>
+<msg time="2024-06-16T23:42:11.911543" level="ERROR">Error in file 'C:\Users\VINI\Desktop\robotcurso\unico.robot' on line 6: Error in file 'C:\Users\VINI\Desktop\robotcurso\Questão - 5\robot.teste5.robot' on line 8: Resource file with 'Test Cases' section is invalid.</msg>
+</errors>
+</robot>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-06-16T23:44:01.549036" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot.Teste3" source="C:\Users\VINI\Desktop\robotcurso\Questão - 3\robot.teste3.robot">
+<test id="s1-t1" name="Exercicio" line="10">
+<kw name="Exibir frutas com o comando for">
+<for flavor="IN">
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:44:01.585135" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Fruta: ${fruta}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:44:01.586131" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:44:01.586131" elapsed="0.000000"/>
+</kw>
+<var name="${fruta}">laranja</var>
+<status status="PASS" start="2024-06-16T23:44:01.585135" elapsed="0.000996"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:44:01.587134" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Fruta: ${fruta}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:44:01.587134" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:44:01.587134" elapsed="0.000000"/>
+</kw>
+<var name="${fruta}">abacate</var>
+<status status="PASS" start="2024-06-16T23:44:01.587134" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:44:01.588641" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Fruta: ${fruta}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:44:01.588641" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:44:01.589651" elapsed="0.000000"/>
+</kw>
+<var name="${fruta}">limão</var>
+<status status="PASS" start="2024-06-16T23:44:01.588641" elapsed="0.001010"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:44:01.589651" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Fruta: ${fruta}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:44:01.589651" elapsed="0.000997"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:44:01.590648" elapsed="0.000000"/>
+</kw>
+<var name="${fruta}">banana</var>
+<status status="PASS" start="2024-06-16T23:44:01.589651" elapsed="0.000997"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:44:01.590648" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Fruta: ${fruta}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:44:01.591646" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:44:01.591646" elapsed="0.000000"/>
+</kw>
+<var name="${fruta}">maçã</var>
+<status status="PASS" start="2024-06-16T23:44:01.590648" elapsed="0.000998"/>
+</iter>
+<var>${fruta}</var>
+<value>@{frutas}</value>
+<status status="PASS" start="2024-06-16T23:44:01.584139" elapsed="0.007507"/>
+</for>
+<status status="PASS" start="2024-06-16T23:44:01.584139" elapsed="0.007507"/>
+</kw>
+<status status="PASS" start="2024-06-16T23:44:01.583150" elapsed="0.009493"/>
+</test>
+<doc>Demonstração</doc>
+<status status="PASS" start="2024-06-16T23:44:01.552066" elapsed="0.041574"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot.Teste3">Robot.Teste3</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

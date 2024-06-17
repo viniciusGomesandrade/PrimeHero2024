@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-06-16T23:43:32.769729" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot.Teste2" source="C:\Users\VINI\Desktop\robotcurso\Questão - 2\robot.teste2.robot">
+<test id="s1-t1" name="Exercicio" line="11">
+<kw name="Exibir ano de nascimento">
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2024-06-16T23:43:32.804718" level="INFO">${ano_nascimento} = 1999</msg>
+<var>${ano_nascimento}</var>
+<arg>${ano} - ${idade}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-06-16T23:43:32.804718" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="${ano_nascimento} &lt;= 2000">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:43:32.805709" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:43:32.805709" elapsed="0.000971"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Você nasceu no século passado!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:43:32.806680" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T23:43:32.806680" elapsed="0.000983"/>
+</kw>
+<status status="PASS" start="2024-06-16T23:43:32.804718" elapsed="0.002945"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>O ano de nascimento é: ${ano_nascimento}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2024-06-16T23:43:32.807663" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-06-16T23:43:32.807663" elapsed="0.000000"/>
+</branch>
+<status status="PASS" start="2024-06-16T23:43:32.804718" elapsed="0.002945"/>
+</if>
+<status status="PASS" start="2024-06-16T23:43:32.804718" elapsed="0.002945"/>
+</kw>
+<status status="PASS" start="2024-06-16T23:43:32.803674" elapsed="0.004986"/>
+</test>
+<doc>Demonstração</doc>
+<status status="PASS" start="2024-06-16T23:43:32.772721" elapsed="0.036937"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot.Teste2">Robot.Teste2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
